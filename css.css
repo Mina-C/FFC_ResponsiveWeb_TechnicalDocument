@@ -1,0 +1,66 @@
+body {
+  font-family: 'Merriweather';
+  background-color: #dff9fb;
+}
+#navbar {
+  background-color: #95afc0;
+  color: black;
+  position: fixed;
+  border: 1px solid ;
+  width: 300px;
+  top:0;
+  left:0;
+  height: 100%;
+}
+nav header{
+  text-align: center;
+  padding: 10px 0 0 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#navbar li{
+  margin: 0px 0 0px -40px; 
+  border-top: 1px solid;
+  font-size: 1.1em;
+  padding: 10px 0 10px 0 ;
+}
+#nav-list {
+  list-style-type: none;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+#main-doc {
+  margin-left: 320px;
+}
+section header {
+  font-weight: bold;
+  margin-left: -10px;
+}
+
+@media (max-width: 700px){
+  #navbar {
+    height: 172px;
+    width: 100%;
+    position: absolute;
+  }
+  nav header{
+  text-align: center;
+  padding: 10px 0 0 0;
+  font-size: 1em;
+  font-weight: bold;
+  }
+  #navbar li{
+  margin: 0px 0 0px -40px; 
+  border-top: 1px solid;
+  font-size: 1em;
+  padding: 0 0 0 0 ;
+  }
+  #main-doc {
+  position: relative;
+  margin-left: 10px;
+  margin-top: 200px;
+}
